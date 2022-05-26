@@ -98,7 +98,7 @@ async function createContainer(genre) {
         if (index > 6) {
             index = 0;
         }
-        movieList.style.transform = `translateX(${-270 * index}px)`;
+        movieList.style.transform = `translateX(${-324 * index}px)`;
     }
 
     mainBody.appendChild(container);
